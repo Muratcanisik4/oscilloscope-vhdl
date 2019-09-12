@@ -1,0 +1,39 @@
+##########################################################################
+# Authors      : Muhammed Tarık YILDIZ <muhammettarikyildiz@gmail.com>
+#              : Murat Can Işık <kernet1@hotmail.com>
+# Project      : OSCILLOSCOPE
+# File Name    : oscilloscope.csv
+# Title        : VGA Drive with Calculated Values and Signal Graphics
+# Description  : This file defines pin usage of the project. It was 
+#              : designed for Altera Cyclone IV FPGA.
+##########################################################################
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+ADC_DATA_IN1[7],Input,PIN_39,3,B3_N0,PIN_39,3.3-V LVTTL,,,,
+ADC_DATA_IN1[6],Input,PIN_38,3,B3_N0,PIN_38,3.3-V LVTTL,,,,
+ADC_DATA_IN1[5],Input,PIN_34,2,B2_N0,PIN_34,3.3-V LVTTL,,,,
+ADC_DATA_IN1[4],Input,PIN_33,2,B2_N0,PIN_33,3.3-V LVTTL,,,,
+ADC_DATA_IN1[3],Input,PIN_32,2,B2_N0,PIN_32,3.3-V LVTTL,,,,
+ADC_DATA_IN1[2],Input,PIN_31,2,B2_N0,PIN_31,3.3-V LVTTL,,,,
+ADC_DATA_IN1[1],Input,PIN_30,2,B2_N0,PIN_30,3.3-V LVTTL,,,,
+ADC_DATA_IN1[0],Input,PIN_28,2,B2_N0,PIN_28,3.3-V LVTTL,,,,
+ADC_DATA_IN2[7],Input,PIN_111,7,B7_N0,PIN_111,3.3-V LVTTL,,,,
+ADC_DATA_IN2[6],Input,PIN_112,7,B7_N0,PIN_112,3.3-V LVTTL,,,,
+ADC_DATA_IN2[5],Input,PIN_106,6,B6_N0,PIN_106,3.3-V LVTTL,,,,
+ADC_DATA_IN2[4],Input,PIN_110,7,B7_N0,PIN_110,3.3-V LVTTL,,,,
+ADC_DATA_IN2[3],Input,PIN_104,6,B6_N0,PIN_104,3.3-V LVTTL,,,,
+ADC_DATA_IN2[2],Input,PIN_105,6,B6_N0,PIN_105,3.3-V LVTTL,,,,
+ADC_DATA_IN2[1],Input,PIN_114,7,B7_N0,PIN_114,3.3-V LVTTL,,,,
+ADC_DATA_IN2[0],Input,PIN_103,6,B6_N0,PIN_103,3.3-V LVTTL,,,,
+CLK,Input,PIN_23,1,B1_N0,PIN_23,,,,,
+INT1,Input,PIN_72,4,B4_N0,PIN_72,3.3-V LVTTL,,,,
+INT2,Input,PIN_115,7,B7_N0,PIN_115,3.3-V LVTTL,,,,
+RD1,Output,PIN_70,4,B4_N0,PIN_70,3.3-V LVTTL,,,,
+RD2,Output,PIN_119,7,B7_N0,PIN_119,3.3-V LVTTL,,,,
+VGA_B,Output,PIN_127,7,B7_N0,PIN_127,3.3-V LVTTL,,,,
+VGA_G,Output,PIN_128,8,B8_N0,PIN_128,3.3-V LVTTL,,,,
+VGA_HSYNC,Output,PIN_120,7,B7_N0,PIN_120,3.3-V LVTTL,,,,
+VGA_R,Output,PIN_129,8,B8_N0,PIN_129,3.3-V LVTTL,,,,
+VGA_VSYNC,Output,PIN_121,7,B7_N0,PIN_121,3.3-V LVTTL,,,,
+WR1,Output,PIN_71,4,B4_N0,PIN_71,3.3-V LVTTL,,,,
+WR2,Output,PIN_113,7,B7_N0,PIN_113,3.3-V LVTTL,,,,
